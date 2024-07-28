@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Poppins;
+}
+
+:root{
+    --bs-dark_color: #1a1d20;
+    --bs-dark-primary: #1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:rgb(64, 64, 64);
+    --bs-sec-color:rgb(215, 206, 206);
+    --secondary-color:blue;
+    --bs-supporting-color:yellow;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: Poppins;
+    color: var(--bs-dark_color);
+}
+h1{
+    font-size: 3.6rem;
+}
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--bs-dark_color);
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+button, a{
+    font-size: 1.5rem;
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;
+}
+.common-title{
+    margin-bottom: 4.2rem;
+    border: none;
+}
+
+.nav-link{
+    color: var(--bs-main-color);
+}
+.nav-link:hover{
+    color: var(--bs-supporting-color);
+}
+li{
+    list-style: none;
+}
+.hiring .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+.bg-main{
+    height: 80vh;
+    position: relative;
+}
+.hire{
+    width: 60%;
+    border-radius: 2rem;
+}
+.bg-color{
+    background-color: var(--bs-primary-color);
+}
+.text-light-grey{
+    color: var(--bs-sec-color);
+}
+
+.custom-shape-divider-bottom-1722160336 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1722160336 svg {
+    position: relative;
+    display: block;
+    width: calc(190% + 1.3px);
+    height: 120px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1722160336 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.services{
+    padding: 6rem 0 3rem 0;
+}
+.card-box:hover{
+    box-shadow:rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+.img-class img.about {
+    height: auto;
+    width: 80%; 
+    border-radius: 80%;
+}
+
+.btn-primary:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
